@@ -1,20 +1,23 @@
-# "Оптимизация парковочных мест"
+**"Parking Optimization"**
 
-## Описание решения
-Мое решение представляет собой клиент-серверное приложение, реализованное на языках JS и Python.
+**Solution Description**
+My solution is a client-server application implemented in JavaScript and Python.
 
-## Инструкция по запуску
-Для запуска решения необходимо запустить фронтенд и бэкенд сервисы.
-Запуск бэкенд сервиса:
+**Run Instructions**
+To launch the solution, you need to start both the frontend and backend services.
+
+**Starting the backend service:**
 ```bash
 cd backend
 pip3 install fastapi PyJWT peewee uvicorn
-uvicron main:app
+uvicorn main:app
 ```
 
-Запуск фронденд сервиса:
+**Starting the frontend service:**
 ```bash
-npm i
+bash
+npm install
 npm run dev
 ```
-Таким образом решение в режиме разработки будет доступно по адресу `http://localhost:5173/`
+
+Thus, the solution in development mode will be available at [http://localhost:5173](http://localhost:5173).
